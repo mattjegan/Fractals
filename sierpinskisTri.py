@@ -2,13 +2,15 @@ import turtle
 
 angle = 60
 divF = 0.5
-startSize = 600
-startDepth = 7
+startSize = 900
+startDepth = 8
 height = 275
 
 def main():
+    prompt = raw_input()
     t = turtle.Turtle()
-    turtle.setup(width=1280, height=600)
+    turtle.setup(width=1280, height=1280)
+    t.hideturtle()
     turtle.colormode(255)
     t.speed(0)
     t.penup()
